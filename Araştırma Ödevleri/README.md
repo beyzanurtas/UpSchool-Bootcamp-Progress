@@ -2,6 +2,8 @@
 
 - [Araştırma Ödevi 1 - Lateinit](#1)
 - [Araştırma Ödevi 2 - Tools Namespace](#2)
+- [Araştırma Ödevi 3 - Font family XML](#3)
+- [Araştırma Ödevi 4 - Property Animation](#4)
 
 
 ### <a name="1"></a> Araştırma Ödevi 1
