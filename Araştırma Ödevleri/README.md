@@ -48,7 +48,7 @@ Android Studio, tools namespace’de tasarım-zaman özelliklerini (bir fragment
     
 ## <a name="3"></a> Araştırma Ödevi 3
 
-- Font family dosyası nasıl oluşturulup kullanıyoruz?
+- Font family dosyasını nasıl oluşturup kullanıyoruz?
 - Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
 
 
