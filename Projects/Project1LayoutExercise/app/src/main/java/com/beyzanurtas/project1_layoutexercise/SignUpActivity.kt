@@ -8,15 +8,15 @@ import androidx.databinding.DataBindingUtil
 import com.beyzanurtas.project1_layoutexercise.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var binding: ActivitySignUpBinding
+    private lateinit var activitysignupbinding: ActivitySignUpBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=DataBindingUtil.setContentView(this,R.layout.activity_sign_up)
+        activitysignupbinding=DataBindingUtil.setContentView(this,R.layout.activity_sign_up)
 
         init()
     }
     private fun init(){
-        binding.signUpButton.setOnClickListener(this)
+        activitysignupbinding.signUpButton.setOnClickListener(this)
     }
 
     override fun onClick(p0: View?) {

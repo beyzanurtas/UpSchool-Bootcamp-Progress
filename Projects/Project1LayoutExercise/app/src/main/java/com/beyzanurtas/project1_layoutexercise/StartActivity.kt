@@ -8,25 +8,25 @@ import androidx.databinding.DataBindingUtil
 import com.beyzanurtas.project1_layoutexercise.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var binding: ActivityStartBinding
+    private lateinit var activitystartbinding: ActivityStartBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=DataBindingUtil.setContentView(this,R.layout.activity_start)
+        activitystartbinding=DataBindingUtil.setContentView(this,R.layout.activity_start)
 
         init()
     }
     private fun init(){
-        binding.signIn.setOnClickListener(this)
-        binding.signUpText.setOnClickListener(this)
+        activitystartbinding.signIn.setOnClickListener(this)
+        activitystartbinding.signUpText.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
         when (view?.id){
-            binding.signIn.id -> {
+            activitystartbinding.signIn.id -> {
                 val intent=Intent(this@StartActivity,PremiumActivity::class.java)
                 startActivity(intent)
             }
-            binding.signUpText.id -> {
+            activitystartbinding.signUpText.id -> {
                 val intent= Intent(this@StartActivity,SignUpActivity::class.java)
                 startActivity(intent)
             }
