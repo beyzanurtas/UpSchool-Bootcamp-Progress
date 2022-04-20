@@ -44,6 +44,17 @@ Android Studio, tools namespace’de tasarım-zaman özelliklerini (bir fragment
     tools:minValue="0"
     tools:maxValue="10"/>
     
+## <a name="3"></a> Araştırma Ödevi 3
+
+- Font family dosyası nasıl oluşturulup kullanıyoruz?
+- Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
+
+
+## <a name="4"></a> Araştırma Ödevi 4
+
+- Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız.
+
+    
    
 
 
