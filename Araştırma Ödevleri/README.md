@@ -129,7 +129,7 @@ Açılan XML'de *font* dosyasında bulunan bir fontu seçerek style, weight gibi
 &nbsp;
       
  ✔ Google fontlarını veya internet üzerinden bulduğumuz diğer fontları *font* dosyasına kaydetmemizin sebebi kullandığımız fontun projemizde devamlılığını sağlayabilmek içindir. Yani, örneğin Google fontu kullanımdan kaldırabilir ve projemizde bu fontu artık kullanamayabiliriz. Bunun önüne geçmiş oluyoruz. 
- Font family kullanarak da style, weight gibi özellikler tanımlayarak da bir nevi kendi fontumuzu oluşturmuş gibi oluyoruz.
+ Font family kullanarak da style, weight gibi özellikler tanımlayarak da fontumuzu kişiselleştirmiş gibi oluyoruz.
 
 ## <a name="4"></a> Araştırma Ödevi 4
 
