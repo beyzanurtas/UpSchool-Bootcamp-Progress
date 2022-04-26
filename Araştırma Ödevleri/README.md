@@ -135,7 +135,38 @@ Açılan XML'de *font* dosyasında bulunan bir fontu seçerek style, weight gibi
 
 - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız.
 
-    
+### Syntax:
+       
+      <set
+      android:ordering=["together" | "sequentially"]>
+
+      <objectAnimator
+        android:propertyName="string"
+        android:duration="int"
+        android:valueFrom="float | int | color"
+        android:valueTo="float | int | color"
+        android:startOffset="int"
+        android:repeatCount="int"
+        android:repeatMode=["restart" | "reverse"]
+        android:valueType=["intType" | "floatType"]/>
+
+      <animator
+        android:duration="int"
+        android:valueFrom="float | int | color"
+        android:valueTo="float | int | color"
+        android:startOffset="int"
+        android:repeatCount="int"
+        android:repeatMode=["restart" | "reverse"]
+        android:valueType=["intType" | "floatType"]/>
+
+       <set>
+        ...
+       </set>
+      </set>     
+
+<code>animator:</code> Belirli bir süre boyunca bir animasyon gerçekleştirir. *ValueAnimator*'ı temsil eder.
+
+<code>objectAnimator:</code> Belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. *ObjectAnimator*'ı temsil eder. ValueAnimator'ın alt sınıfıdır. Syntax bölümünde de gördüğümüz gibi animator'dan farklı olarak propertyName tanımlaması yaparız. Canlandırılacak nesnenin özelliğini *string* ifade olarak belirtiriz. Örneğin, bir View nesnesi için "alpha" veya "backgroundColor" belirtebiliriz. 
    
 
 
