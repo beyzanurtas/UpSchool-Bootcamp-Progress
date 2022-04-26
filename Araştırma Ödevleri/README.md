@@ -129,7 +129,7 @@ Açılan XML'de *font* dosyasında bulunan bir fontu seçerek style, weight gibi
 &nbsp;
       
  ✔ Google fontlarını veya internet üzerinden bulduğumuz diğer fontları *font* dosyasına kaydetmemizin sebebi kullandığımız fontun projemizde devamlılığını sağlayabilmek içindir. Yani, örneğin Google fontu kullanımdan kaldırabilir ve projemizde bu fontu artık kullanamayabiliriz. Bunun önüne geçmiş oluyoruz. 
- Font family kullanarak da style, weight gibi özellikler tanımlayarak da fontumuzu kişiselleştirmiş gibi oluyoruz.
+ Font family kullanarak da style, weight gibi özellikler tanımlayarak da fontumuzu kişiselleştirmiş gibi oluyoruz([Kaynak](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml)).
 
 ## <a name="4"></a> Araştırma Ödevi 4
 
@@ -166,7 +166,7 @@ Açılan XML'de *font* dosyasında bulunan bir fontu seçerek style, weight gibi
 
 <code>animator:</code> Belirli bir süre boyunca bir animasyon gerçekleştirir. *ValueAnimator*'ı temsil eder.
 
-<code>objectAnimator:</code> Belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. *ObjectAnimator*'ı temsil eder. ValueAnimator'ın alt sınıfıdır. Syntax bölümünde de gördüğümüz gibi animator'dan farklı olarak propertyName tanımlaması yaparız. Canlandırılacak nesnenin özelliğini *string* ifade olarak belirtiriz. Örneğin, bir View nesnesi için "alpha" veya "backgroundColor" belirtebiliriz. 
+<code>objectAnimator:</code> Belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. *ObjectAnimator*'ı temsil eder. ValueAnimator'ın alt sınıfıdır. Syntax bölümünde de gördüğümüz gibi animator'dan farklı olarak propertyName tanımlaması yaparız. Canlandırılacak nesnenin özelliğini *string* ifade olarak belirtiriz. Örneğin, bir View nesnesi için "alpha" veya "backgroundColor" belirtebiliriz([Kaynak](https://developer.android.com/guide/topics/resources/animation-resource#Property)). 
    
 
 
