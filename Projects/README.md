@@ -1,3 +1,3 @@
-- [Project 1 - Layout Exercise Project](https://github.com/beyzanurtas/UpSchool-Bootcamp-Progress/tree/main/Projects/Project1LayoutExercise)
+- [Project 1 - Layout Exercise Project]
 - [Project 2 - Android Tween Animation Sample Project](https://github.com/beyzanurtas/Android-Tween-Animation-Sample)
-- [Project 3 - Layout Exercise Project - Databinding](https://github.com/beyzanurtas/UpSchool-Bootcamp-Progress/tree/main/Projects/Project1LayoutExercise)
+- [Project 3 - Layout Exercise Project - Databinding]
