@@ -83,7 +83,7 @@ Açılan XML'de *font* dosyasında bulunan bir fontu seçerek style, weight gibi
  
 <table>
 <tr>
-<td> acitivty_main.xml </td> <td> Phone View </td>
+<td> activity_main.xml </td> <td> Phone View </td>
 </tr>
 <tr>
 <td> 
